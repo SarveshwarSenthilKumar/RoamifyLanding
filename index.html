@@ -631,6 +631,46 @@
                 align-items: center;
             }
         }
+
+        /* Pitch Deck Section */
+        .pitch-deck {
+            padding: 6rem 5%;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        .deck-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .deck-card {
+            background: white;
+            border-radius: 20px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .deck-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .deck-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .deck-card p {
+            color: #6c757d;
+            margin-bottom: 2rem;
+        }
     </style>
 </head>
 <body>
@@ -644,6 +684,7 @@
             <a href="#features">Features</a>
             <a href="#how-it-works">How It Works</a>
             <a href="#tech-stack">Tech Stack</a>
+            <a href="pitch.html">Pitch Deck</a>
             <a href="#contact">Contact</a>
         </div>
         <a href="#" class="cta-button">Get Started</a>
@@ -905,7 +946,6 @@
                 <p>Developer</p>
             </div>
         </div>
-        <p class="mt-4">For EurekaHacks 2025</p>
     </section>
     -->
 
@@ -914,6 +954,24 @@
         <h2>Ready to Explore?</h2>
         <p>Join thousands of adventurers discovering amazing outdoor experiences with Roamify.</p>
         <a href="#" class="cta-button">Start Your Adventure</a>
+    </section>
+
+    <!-- Pitch Deck Section -->
+    <section class="pitch-deck">
+        <div class="section-header">
+            <h2>Investor Information</h2>
+            <p>Explore our detailed pitch deck to learn more about Roamify's business potential and investment opportunity.</p>
+        </div>
+        <div class="deck-container">
+            <div class="deck-card floating">
+                <div class="deck-icon">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+                <h3>Business Overview</h3>
+                <p>Market analysis, revenue model, and growth strategy</p>
+                <a href="pitch.html" class="cta-button">View Pitch Deck</a>
+            </div>
+        </div>
     </section>
 
     <!-- Updated Footer -->
@@ -931,7 +989,7 @@
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Roamify. Built with Flask for EurekaHacks 2025. All rights reserved.</p>
+                <p>&copy; 2025 Roamify. Built with Flask. All rights reserved.</p>
             </div>
         </div>
     </footer>
